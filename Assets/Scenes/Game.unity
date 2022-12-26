@@ -616,6 +616,7 @@ GameObject:
   - component: {fileID: 1157991928}
   - component: {fileID: 1157991927}
   - component: {fileID: 1157991926}
+  - component: {fileID: 1157991929}
   m_Layer: 5
   m_Name: FoodButton
   m_TagString: Untagged
@@ -725,6 +726,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1157991924}
   m_CullTransparentMesh: 1
+--- !u!114 &1157991929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1157991924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 639331b722b2e45a1848f9532dc795a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  foodButton: {fileID: 1157991926}
+  foodPrefab: {fileID: 7124831843305269364, guid: d214a528b565e4a7aa943977d7a548e2,
+    type: 3}
 --- !u!1 &1966796533
 GameObject:
   m_ObjectHideFlags: 0
